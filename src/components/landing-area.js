@@ -1,6 +1,7 @@
 import { FaBitcoin, FaEthereum, FaPiggyBank, FaWallet } from "react-icons/fa";
 import { AiOutlineStock } from "react-icons/ai";
 import { BiUpArrow } from "react-icons/bi";
+import Shares from '../data/shares';
 
 export default function Landing(){
     return(
@@ -19,9 +20,11 @@ export default function Landing(){
             <div className="flex flex-col w-1/3 h-full items-center bg-gray-50">
                 <div class="relative flex overflow-x-hidden w-full text-sm md:text-xs bg-slate-200">
                     <div class="animate-marquee whitespace-nowrap flex">
-                        <span class="mx-4 flex">Company Name <span className="text-teal-600 flex pl-2 items-center">888% <BiUpArrow /> </span></span>
-                        <span class="mx-4 flex">Company Name <span className="text-teal-600 flex pl-2 items-center">888% <BiUpArrow /> </span></span>
-                        <span class="mx-4 flex">Company Name <span className="text-teal-600 flex pl-2 items-center">888% <BiUpArrow /> </span></span>
+                        {Shares.map((company) => {
+                            return(
+                                <span class="mx-4 flex"> {company.name} <span className="text-teal-600 flex pl-2 items-center">{company.change} <BiUpArrow /> </span></span>
+                            )
+                        })}
                     </div>
                 </div>
 
