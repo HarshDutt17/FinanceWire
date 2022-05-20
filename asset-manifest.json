@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/financewire/static/css/main.8b272f1a.css",
+    "main.js": "/financewire/static/js/main.028febf6.js",
+    "static/media/realtimedata.jpg": "/financewire/static/media/realtimedata.1bfa244163ac64d63732.jpg",
+    "static/media/stocks.jpg": "/financewire/static/media/stocks.6281be521cb3bf62000f.jpg",
+    "static/media/calculation.jpg": "/financewire/static/media/calculation.f95168aecd7f54236eee.jpg",
+    "static/media/trianglefooter.jpg": "/financewire/static/media/trianglefooter.a07535ef181f83501506.jpg",
+    "static/media/smallhouse.jpg": "/financewire/static/media/smallhouse.cc3450bb4cdb9b4f31aa.jpg",
+    "index.html": "/financewire/index.html",
+    "main.8b272f1a.css.map": "/financewire/static/css/main.8b272f1a.css.map",
+    "main.028febf6.js.map": "/financewire/static/js/main.028febf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b272f1a.css",
+    "static/js/main.028febf6.js"
+  ]
+}
