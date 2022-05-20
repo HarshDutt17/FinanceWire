@@ -7,7 +7,7 @@ import Landing from "./components/landing-area";
 
 export default function App() {
   return (
-    <div className="App text-xl">
+    <div className="App text-xl bg-gray-100">
       <Header />
       <Landing />
       <Features />
