@@ -18,11 +18,11 @@ export default function Landing(){
             </div>
             
             <div className="flex flex-col w-1/3 h-full items-center bg-gray-50">
-                <div class="relative flex overflow-x-hidden w-full text-sm md:text-xs bg-slate-200">
-                    <div class="animate-marquee whitespace-nowrap flex">
+                <div className="relative flex overflow-x-hidden w-full text-sm md:text-xs bg-slate-200">
+                    <div className="animate-marquee whitespace-nowrap flex">
                         {Shares.map((company) => {
                             return(
-                                <span class="mx-4 flex"> {company.name} <span className="text-teal-600 flex pl-2 items-center">{company.change} <BiUpArrow /> </span></span>
+                                <span className="mx-4 flex" key={company.key}> {company.name} <span className="text-teal-600 flex pl-2 items-center">{company.change} <BiUpArrow /> </span></span>
                             )
                         })}
                     </div>
