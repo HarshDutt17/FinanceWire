@@ -12,7 +12,7 @@ export default function About (){
                     <Login />
                 </div>
                 <div className="w-2/5 md:w-full">
-                    <img src="/images/stockphone.jpg" alt="phone"  className="rounded-xl w-full"/>
+                    <img src={process.env.PUBLIC_URL + "/images/stockphone.jpg"} alt="phone"  className="rounded-xl w-full"/>
                 </div>
             </div>
             <Hr />
@@ -24,7 +24,7 @@ export default function About (){
             <Hr />
             <div className="flex md:flex-col justify-around py-12 mx-44 md:mx-10">
                 <div className="w-2/5 mr-20 md:w-full md:mb-4">
-                    <img src="/images/stockphone2.jpg" alt="phone"  className="rounded-xl w-full"/>
+                    <img src={process.env.PUBLIC_URL + "/images/stockphone2.jpg"} alt="phone"  className="rounded-xl w-full"/>
                 </div>
                 <div className="flex flex-col items-end text-right w-3/5 md:w-full">
                     <h1 className="text-teal-700 text-2xl font-bold tracking-wider">Get data intelligence</h1>

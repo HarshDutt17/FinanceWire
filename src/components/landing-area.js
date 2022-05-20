@@ -6,7 +6,7 @@ export default function Landing(){
     return(
         <div className="flex bg-white">
             <div className="flex flex-col w-2/3 h-full md:pt-24">
-                <img src="/images/callgestureman.jpg" alt="man doing call gesture" className="w-3/4"/>
+                <img src={process.env.PUBLIC_URL + "/images/callgestureman.jpg"} alt="man doing call gesture" className="w-3/4"/>
                 <div className="flex justify-around items-center text-slate-100 text-5xl md:text-xl h-24 md:h-12 bg-red-500/90 rounded-t-2xl pt-4 md:pt-0">
                     <FaBitcoin/>
                     <FaEthereum />
@@ -27,7 +27,7 @@ export default function Landing(){
 
                 <div className="flex flex-col items-center text-center">
                     <div className="w-2/5 py-4 md:my-2  my-12">
-                        <img src="/images/logo.jpg" alt="FWlogo"  className="border rounded-lg border-red-900 ring-2 ring-red-900"  />
+                        <img src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="FWlogo"  className="border rounded-lg border-red-900 ring-2 ring-red-900"  />
                     </div>
                     <div className="">
                         <p className="text-3xl font-serif pt-6 pb-12 md:pb-4 md:pt-1 md:text-sm">The Financial Wire</p>

@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex w-full justify-between px-10 md:px-1 py-2 items-center border-red-900 bg-white">
             <div>
                 <h1 className="flex w-auto md:w-44">
-                    <img src="/images/logo.jpg" alt="FW" className="w-1/5"/>
+                    <img src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="FW" className="w-1/5"/>
                 </h1>
             </div>
             <div className="flex">

@@ -10,9 +10,9 @@ export default function Footer(){
                     <Login />
                 </div>
             </div>
-            <div className="flex md:flex-col justify-around mx-44 md:px-10 md:mx-0 items-center bg-white md:w-full">
+            <div className="flex md:flex-col justify-around px-44 md:px-10 md:mx-0 items-center bg-white md:w-full">
                 <div className="flex items-center w-1/2 md:w-full">
-                    <img src="/images/logo.jpg" alt="logo" className="w-32 pb-2"/>
+                    <img src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="logo" className="w-32 pb-2"/>
                     <p className="text-3xl font-serif tracking-wide px-4">The Financial Wire</p>
                 </div>
                 <div className="flex flex-col items-end text-right w-1/2 md:text-center md:w-full md:items-center md:pb-2">
