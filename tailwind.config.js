@@ -10,6 +10,7 @@ module.exports = {
       'discussion' : "url('../tileimg/discussion.jpg')",
       'realdata' : "url('../tileimg/realtimedata.jpg')",
       'smallhouse' : "url('../tileimg/smallhouse.jpg')",
+      'footer' : "url('../tileimg/trianglefooter.jpg')",
     },
     // colors:{
     //   ...colors,
